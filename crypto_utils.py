@@ -37,9 +37,9 @@ def modular_inverse(a, m):
     """
 
     gcd_value, x, y = extended_gcd(a, m)
-    if gcd_value != 1:
-        print('No inverse. gcd (%d, %d) is %d. Decoding is not unique. Choose another key than %d'
-              % (a, m, math.gcd(a, m), a))
+#    if gcd_value != 1:
+#        print('No inverse. gcd (%d, %d) is %d. Decoding is not unique. Choose another key than %d'
+#              % (a, m, math.gcd(a, m), a))
     return x % m
 
 
